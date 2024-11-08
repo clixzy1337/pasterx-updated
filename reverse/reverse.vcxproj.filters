@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="offsets.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybind.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="icon.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="icons1.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="Print.hpp">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="Skicript.hpp">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="ud.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="xstring.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="FVector.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\defs.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9anim.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9core.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9effect.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9math.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9mesh.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9shader.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9shape.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9tex.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9xof.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{89d64466-55af-43c5-a8af-5eea6a5f52cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{c3ea2088-a3ad-41bf-b883-8ddf92287b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{73bc7dd8-da3a-4ca9-bbac-e47ed6f8f45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Import">
+      <UniqueIdentifier>{941b7c3d-910e-4c9f-8ff3-325ab1d6cb23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx">
+      <UniqueIdentifier>{a567e76f-76aa-4963-843c-937e2b699b59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="directx9\d3dx9.lib">
+      <Filter>dx</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="directx9\d3dx9math.inl">
+      <Filter>dx</Filter>
+    </None>
+  </ItemGroup>
+</Project>
