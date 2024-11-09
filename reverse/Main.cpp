@@ -1542,7 +1542,14 @@ void DrawESP()
 
 	if (enablefov && fovcircle)
 	{
-		ImGui::GetOverlayDrawList()->AddCircle(ImVec2(ScreenCenterX, ScreenCenterY), float(AimFOV), RGBtoU32(PlayerColor::FovCircle1Visible[0] * 255, PlayerColor::FovCircle1Visible[1] * 255, PlayerColor::FovCircle1Visible[2] * 255), 100.0f, 1.5f);
+		ImGui::GetOverlayDrawList()->AddRect(
+			ImVec2(ScreenCenterX - AimFOV, ScreenCenterY - AimFOV),  // Top-left corner
+			ImVec2(ScreenCenterX + AimFOV, ScreenCenterY + AimFOV),  // Bottom-right corner
+			RGBtoU32(PlayerColor::FovCircle1Visible[0] * 255, PlayerColor::FovCircle1Visible[1] * 255, PlayerColor::FovCircle1Visible[2] * 255),  // Color
+			0.0f,  // No rounding for sharp corners
+			0,     // Flags (default, no extra flags)
+			1.5f   // Outline thickness
+		);
 	}
 
 
@@ -2369,6 +2376,8 @@ void DrawESP()
 		}
 
 	}
+	
+
 
 
 	if (enableaimbot)

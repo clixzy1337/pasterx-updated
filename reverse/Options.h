@@ -77,7 +77,9 @@ bool InstaRes = false;
 bool NoBloom = false;
 bool bullettp = false;
 bool instant_reload = false;
+bool fovchanger = false;
 int fovchangervalue = 80;
+
 
 // ADDITIONAL VARIABLES
 float BoxWidthValue = 0.550;
@@ -115,8 +117,8 @@ float ButtomLineThickness = 1.5f;
 float boxchick[3] = { 1.f, 1.f, 1.f };
 float boxcolor[3] = { 1.f, 1.f, 1.f };
 namespace PlayerColor {
-	float SkeletonVisible[4] = { 0.5f, 0.0f, 0.5f, 1.0f };
-	float SkeletonNotVisible[4] = { 1.0f, 0.0f, 0.0f, 1.0f };
+	float SkeletonVisible[4] = { 0.9f, 0.0f, 0.9f, 1.0f };
+	float SkeletonNotVisible[4] = { 0.9f, 0.0f, 0.9f, 1.0f };
 	float BoxVisible[4] = { 0.0f, 0.0f, 0.0f, 0.0f };
 	float BoxNotVisible[4] = { 1.0f, 0.0f, 0.0f, 1.0f };
 	float CorneredVisible[4] = { 0.0f, 1.0f, 0.0f, 1.0f };
