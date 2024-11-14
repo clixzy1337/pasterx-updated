@@ -1,19 +1,17 @@
 #pragma once
 #include <Windows.h>
 
-
-
 namespace offsets
 {
-    uintptr_t UWORLD = 0x12D17A08;
+    uintptr_t UWORLD = 0x12D9F408;
     uintptr_t GObjects = 0x12E4DF88;
 
     uintptr_t LocalPawn = 0x350;
     uintptr_t PlayerController = 0x30;
     uintptr_t LocalPlayers = 0x38;
     uintptr_t PlayerState = 0x2C8;
-    uintptr_t GameState = 0x178;
-    uintptr_t GameInstance = 0x1F0;
+    uintptr_t GameState = 0x188;
+    uintptr_t GameInstance = 0x200;
     uintptr_t PlayerArray = 0x2C0;
     uintptr_t TeamIndex = 0x1239;
     uintptr_t CameraManager = 0x348;
@@ -31,13 +29,13 @@ namespace offsets
     uintptr_t Last_Render_Time = 0x2E8;
     uintptr_t Last_Render_Time_On_Screen = 0x2F0;
     uintptr_t Velocity = 0x168;
-    uintptr_t DefaultFOV = 0x170;
+    uintptr_t DefaultFOV = 0x2A4;
     uintptr_t CurrentWeapon = 0x9F8;
-    uintptr_t bIsReloadingWeapon = 0x398;
+    uintptr_t bIsReloadingWeapon = 0x399;
     uintptr_t bIsEquippingWeapon = 0x350;
     uintptr_t bIsChargingWeapon = 0x369;
-    uintptr_t WeaponData = 0x510;
-    uintptr_t AmmoCount = 0xEEC;
+    uintptr_t WeaponData = 0x568;
+    uintptr_t AmmoCount = 0xEF4;
     uintptr_t bIsTargeting = 0x581;
     uintptr_t bIsCrouched = 0x45C;
     uintptr_t bIsDying = 0x758;
@@ -55,7 +53,7 @@ namespace offsets
     uintptr_t LastSubmitTime = 0x2E8;
     uintptr_t LastRenderTimeOnScreen = 0x2E0;
     uintptr_t LocalActorPos = 0x120;
-    uintptr_t PlayerName = 0xAD0;
+    uintptr_t PlayerName = 0xAA8;
     uintptr_t ProjectileSpeed = 0x1B3C;
     uintptr_t ProjectileGravity = 0x1B40;
     uintptr_t ReticleDefaultColor = 0x800;

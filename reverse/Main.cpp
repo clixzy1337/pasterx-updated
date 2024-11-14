@@ -543,8 +543,8 @@ float fov;
 CameraInfo GetCameraInfo()
 {
 	CameraInfo camera;
-	auto location_pointer = read<uintptr_t>(Uworld + 0x120);
-	auto rotation_pointer = read<uintptr_t>(Uworld + 0x130);
+	auto location_pointer = read<uintptr_t>(Uworld + 0x128);
+	auto rotation_pointer = read<uintptr_t>(Uworld + 0x138);
 
 	struct RotationInfo
 	{
